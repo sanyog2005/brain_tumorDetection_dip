@@ -12,7 +12,7 @@ Small Filters: Uses 3x3 convolution filters, which helps in capturing fine detai
 
 Deep Network: Despite being deep, the network has a simple and uniform structure
 
-#cnn
+# cnn
 Convolutional Neural Networks (CNNs)
 CNNs are a specialized type of neural network designed to process and analyze visual data. They are particularly effective for image-related tasks. Here's how they work:
 
