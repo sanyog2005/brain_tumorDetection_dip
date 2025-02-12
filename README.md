@@ -37,3 +37,15 @@ Hybrid Learning Algorithm: It combines supervised learning and reinforcement lea
 Efficiency: SkipNet can reduce computation by 30-90% while preserving the accuracy of the original model on benchmark datasets.
 
 Adaptive Depth: The network depth is adapted based on the complexity of the input image, ensuring that more challenging images are processed through more layers.
+
+# Yolov10
+YOLOv10 is the latest version in the YOLO (You Only Look Once) series for real-time object detection. Developed by researchers at Tsinghua University, YOLOv10 introduces several key improvements over its predecessors, focusing on both performance and efficiency.
+
+Key Features of YOLOv10:
+NMS-Free Training: YOLOv10 eliminates the need for non-maximum suppression (NMS) during training by using consistent dual assignments. This reduces inference latency and improves efficiency.
+
+Holistic Model Design: The model is comprehensively optimized from both efficiency and accuracy perspectives. This includes lightweight classification heads, spatial-channel decoupled down sampling, and rank-guided block design.
+
+Enhanced Model Capabilities: Incorporates large-kernel convolutions and partial self-attention modules to improve performance without significant computational cost.
+
+Model Variants: YOLOv10 comes in various scales to cater to different application needs, such as YOLOv10-N (Nano), YOLOv10-S (Small), YOLOv10-M (Medium), YOLOv10-B (Balanced), and YOLOv10-L (Large).
