@@ -11,3 +11,17 @@ Here are some key features of VGG16:
 Small Filters: Uses 3x3 convolution filters, which helps in capturing fine details in images.
 
 Deep Network: Despite being deep, the network has a simple and uniform structure
+
+#cnn
+Convolutional Neural Networks (CNNs)
+CNNs are a specialized type of neural network designed to process and analyze visual data. They are particularly effective for image-related tasks. Here's how they work:
+
+Convolutional Layers: The core building block of a CNN is the convolutional layer. This layer applies a set of filters (kernels) to the input image, creating feature maps that highlight specific patterns like edges, textures, or colors.
+
+Pooling Layers: These layers reduce the spatial dimensions of the feature maps, effectively downsampling the data to make the network more computationally efficient and reduce overfitting. The most common pooling operation is max pooling.
+
+Fully Connected Layers: After several convolutional and pooling layers, the output is flattened and fed into fully connected layers (similar to traditional neural networks). These layers help in making the final classification or prediction.
+
+Activation Functions: Non-linear activation functions (like ReLU) are applied after each convolutional layer to introduce non-linearity, enabling the network to learn complex patterns.
+
+Training with Backpropagation: CNNs are trained using backpropagation, where the network adjusts the weights and biases of the filters based on the error between the predicted output and the actual output.
