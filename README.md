@@ -25,3 +25,15 @@ Fully Connected Layers: After several convolutional and pooling layers, the outp
 Activation Functions: Non-linear activation functions (like ReLU) are applied after each convolutional layer to introduce non-linearity, enabling the network to learn complex patterns.
 
 Training with Backpropagation: CNNs are trained using backpropagation, where the network adjusts the weights and biases of the filters based on the error between the predicted output and the actual output.
+
+# skipnet
+SkipNet is an interesting concept in the field of deep learning, specifically related to Convolutional Neural Networks (CNNs). The idea behind SkipNet is to dynamically route images through a subset of layers on a per-input basis. This means that for simpler images, SkipNet can skip some convolutional layers, reducing computation while maintaining accuracy1.
+
+Key Features of SkipNet:
+Dynamic Routing: SkipNet uses a gating network to decide which layers to skip based on the activations of the previous layer.
+
+Hybrid Learning Algorithm: It combines supervised learning and reinforcement learning to handle the non-differentiable skipping decisions.
+
+Efficiency: SkipNet can reduce computation by 30-90% while preserving the accuracy of the original model on benchmark datasets.
+
+Adaptive Depth: The network depth is adapted based on the complexity of the input image, ensuring that more challenging images are processed through more layers.
