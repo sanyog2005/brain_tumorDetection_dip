@@ -49,3 +49,5 @@ Holistic Model Design: The model is comprehensively optimized from both efficien
 Enhanced Model Capabilities: Incorporates large-kernel convolutions and partial self-attention modules to improve performance without significant computational cost.
 
 Model Variants: YOLOv10 comes in various scales to cater to different application needs, such as YOLOv10-N (Nano), YOLOv10-S (Small), YOLOv10-M (Medium), YOLOv10-B (Balanced), and YOLOv10-L (Large).
+
+# tensorflow
