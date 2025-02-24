@@ -11,8 +11,9 @@ Here are some key features of VGG16:
 Small Filters: Uses 3x3 convolution filters, which helps in capturing fine details in images.
 
 Deep Network: Despite being deep, the network has a simple and uniform structure
+[![vgg16](https://github.com/sanyog2005/brain_tumorDetection_dip/blob/main/brain%20tumor%20classification%20report/vgg16%20classifiication%20report.png?raw=true)]
 
-https://github.com/sanyog2005/brain_tumorDetection_dip/blob/main/brain%20tumor%20classification%20report/vgg16%20classifiication%20report.png?raw=true
+!(https://github.com/sanyog2005/brain_tumorDetection_dip/blob/main/brain%20tumor%20classification%20report/vgg16%20classifiication%20report.png?raw=true)
 
 # cnn
 Convolutional Neural Networks (CNNs)
