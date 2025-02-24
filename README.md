@@ -12,6 +12,8 @@ Small Filters: Uses 3x3 convolution filters, which helps in capturing fine detai
 
 Deep Network: Despite being deep, the network has a simple and uniform structure
 
+[![ANN](https://github.com/sanyog2005/brain_tumorDetection_dip/blob/main/brain%20tumor%20classification%20report/ann.jpg?raw=true)]
+
 # cnn
 Convolutional Neural Networks (CNNs)
 CNNs are a specialized type of neural network designed to process and analyze visual data. They are particularly effective for image-related tasks. Here's how they work:
@@ -50,4 +52,5 @@ Enhanced Model Capabilities: Incorporates large-kernel convolutions and partial 
 
 Model Variants: YOLOv10 comes in various scales to cater to different application needs, such as YOLOv10-N (Nano), YOLOv10-S (Small), YOLOv10-M (Medium), YOLOv10-B (Balanced), and YOLOv10-L (Large).
 
-# tensorflow
+# ANN using sigmoid and adam optimiser
+[![ANN](https://github.com/sanyog2005/brain_tumorDetection_dip/blob/main/brain%20tumor%20classification%20report/ann.jpg?raw=true)]
